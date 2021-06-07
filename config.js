@@ -58,11 +58,11 @@ var respecConfig =
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   //publishDate: "2019-10-08",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
-  github: "https://github.com/geonovum/oapif-PDOK-INSPIRE",
+  github: "https://github.com/geonovum/OAPIF-PDOK-INSPIRE",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
-  issueBase: "https://github.com/geonovum/oapif-PDOK-INSPIRE/issues",
+  issueBase: "https://github.com/geonovum/OAPIF-PDOK-INSPIRE/issues",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://github/geonovum/oapif-PDOK-INSPIRE",
+  edDraftURI: "https://geonovum.github.io/OAPIF-PDOK-INSPIRE",
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors: 
@@ -94,7 +94,7 @@ var respecConfig =
     }, 
   ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
-  shortName: "oapif-PDOK-INSPIRE",  	              // Wordt gebruikt in de document URL
+  shortName: "OAPIF-PDOK-INSPIRE",  	              // Wordt gebruikt in de document URL
   //-- pubDomain is verplicht! (komt in de URL: Activeer 1 van de volgende) ------------
   pubDomain: "oapif", 	            // OGC API Features
   //pubDomain: "et", 	              // Energie transitie
