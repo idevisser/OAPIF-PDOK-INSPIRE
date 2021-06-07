@@ -12,7 +12,7 @@
 
 ###	Requirements
 
-*Beschrijf de eisen waar de OAPIF aan moeten voldoen, dus verwijzen naar map https://github.com/Geonovum/OAPIF-PDOK-INSPIRE/requirements*
+*Beschrijf de eisen waar de OAPIF aan moeten voldoen, dus verwijzen naar map https://github.com/Geonovum/OAPIF-PDOK-INSPIRE/tree/main/requirements*
 
 
 ###	Relevant documentation 
