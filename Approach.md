@@ -10,14 +10,14 @@
 *Geef een overzicht van de Stakeholders, hun rollen, hun belangen enz ...*
 
 
-###	References
+###	Requirements
 
-*Beschrijf de eisen waar de OAPIF aan moeten voldoen*
+*Beschrijf de eisen waar de OAPIF aan moeten voldoen, dus verwijzen naar map https://github.com/Geonovum/OAPIF-PDOK-INSPIRE/requirements*
 
 
 ###	Relevant documentation 
 
-*Geef een overzicht van de relvante bestaande docuementatie en hoe die wordt gebruikt in het rapport*
+*Geef een overzicht van de relvante bestaande docuementatie en hoe die wordt gebruikt in het rapport, maar dat lijkt dubbelop, want die komen ook in bijlage B*
 
 
 <aside class='note'>
