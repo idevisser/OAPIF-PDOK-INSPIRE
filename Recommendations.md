@@ -1,7 +1,5 @@
 ## Recommendations
 
-### Conclusies
-
 *Beschrijf hier de belangrijkste aanbevelingen:* 
 
 <aside class='note'>
