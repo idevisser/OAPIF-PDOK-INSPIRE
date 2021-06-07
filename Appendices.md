@@ -1,7 +1,4 @@
-## Appendices
+## Appendix
 
-### Appendix A
-
-
-### Appendix B
+*Wie weet wat hier nog komt*
 
