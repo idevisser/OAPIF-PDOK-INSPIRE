@@ -1,1 +1,1 @@
-The files in these maps were candidates for testing the OAPIF.
+The files in these maps are candidates for testing the OAPIF.
