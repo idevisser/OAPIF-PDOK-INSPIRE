@@ -1,4 +1,6 @@
-## Results
+## Resulting issues
+
+- GML as output is .....
 
 ### Resulting services
 
