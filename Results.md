@@ -1,6 +1,6 @@
 ## Resulting issues
 
-- GML as output is .....
+1) GML as output is .....
 
 ### Resulting services
 
