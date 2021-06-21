@@ -1,6 +1,7 @@
 ## Requirements
 
-The requirements can be found in this folder
+The requirements can be found in this folder in the downloadable xls file.
+
 An aditional requirement could be testing with: https://github.com/opengeospatial/ets-ogcapi-features10
 and Linda wrote:
 
