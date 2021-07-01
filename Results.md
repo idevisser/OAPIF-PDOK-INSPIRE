@@ -28,7 +28,7 @@ https://api.pdok.nl/geonovum/oaf/v1_0/collections?f=html
 </figure>
 
 The items:
-https://api.pdok.nl/geonovum/oaf/v1_0/collections/items?f=html
+https://api.pdok.nl/geonovum/oaf/v1_0/collections/addresses/items?f=html
 
 ## Posible improvements
 
