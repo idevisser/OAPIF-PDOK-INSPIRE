@@ -6,7 +6,7 @@ The approach consisted of the following steps:
 
 - astablish requirements
 - organize a High5 week with stakeholders
-- Choose a data set
+- Choose a data set (Dutch INSPIRE adsresses)
 - start communication on Github 
 - report to INSPIR community
 - organize presentations
@@ -18,16 +18,29 @@ Stakeholders are:
 - PDOK (Publieke Dienstverlening op de Kaart, http://www.pdok.nl) as hosting organization for geoservices
 - Kadaster (https://www.kadaster.nl) as dataprovider
 
+## Used tools
+
+PDOK has used self developped software based on Go and Postgres.
+
 ###	Requirements
 
 The requirements are listed in detail in https://github.com/Geonovum/OAPIF-PDOK-INSPIRE/tree/main/requirements
+Below the most relevant requirements are listed:
 
 | nr | requirement | priority | reference | 
 |----|---------|---------|------------------| 
-|  1 |         |         |                  |
-|  2 |         |         |                  |
-|  3 |         |         |                  |
-|  4 |         |         |                  |
+|  1 | OGC API Features Core      |    1     | http://docs.opengeospatial.org/is/17-069r3/17-069r3.html                 |
+|  3 | INPSIRE-MIF document: Setting up an INSPIRE Download service based on the OGC API-Features standard      |   1      | https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md                 |
+|  4 | predefined download        |    1     | https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-pre-defined                 |
+|  5 | Geojson        |    1     | https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-oapif-json                 |
+|  6 | bulk download        |    1     | https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-bulk-download                 |
+|  7 | CRS ETRS89 and WGS84       |    2     | https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-crs                 |
+|  8 | INSPIRE validated GML as input       |    3     | https://inspire.ec.europa.eu/validator/about/               |
+|  9 | Dutch API designrules        |    1     | https://www.geonovum.nl/over-geonovum/actueel/rest-api-design-rules-op-pas-toe-leg-uit-lijst               |
+|  10 | Descibing encoding        |    1     | https://github.com/INSPIRE-MIF/2017.2/blob/master/GeoJSON/geojson-encoding-rule.md#inspire-requirements-for-encoding-rules               |
+|  11 | filtering        |    2     | https://docs.ogc.org/DRAFTS/19-079r1.html                |
+|  12 | metadata links        |    1     | http://docs.opengeospatial.org/is/17-069r3/17-069r3.html#rec_core_fc-md-descriptions                |
+
 
 ###	Relevant documentation 
 
