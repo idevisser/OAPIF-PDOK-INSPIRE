@@ -2,31 +2,35 @@
 
 ### Approach
 
-*Beschrijf hier wat het gevolgde proces is om te komen tot het rapport, denk aan desktop research, expertsessies, consultatierondes, enz ...*
+The approach consisted of the following steps:
 
+- astablish requirements
+- organize a High5 week with stakeholders
+- Choose a data set
+- start communication on Github 
+- report to INSPIR community
+- organize presentations
 
 ###	Stakeholders
 
-*Geef een overzicht van de Stakeholders, hun rollen, hun belangen enz ...*
-
+Stakeholders are:
+- Geonovum as initiator and author of this document
+- PDOK (Publieke Dienstverlening op de Kaart, http://www.pdok.nl) as hosting organization for geoservices
+- Kadaster (https://www.kadaster.nl) as dataprovider
 
 ###	Requirements
 
-*Beschrijf de eisen waar de OAPIF aan moeten voldoen, dus verwijzen naar map https://github.com/Geonovum/OAPIF-PDOK-INSPIRE/tree/main/requirements*
+The requirements are listed in detail in https://github.com/Geonovum/OAPIF-PDOK-INSPIRE/tree/main/requirements
 
+| nr | requirement | priority | reference | 
+|----|---------|---------|------------------| 
+|  1 |         |         |                  |
+|  2 |         |         |                  |
+|  3 |         |         |                  |
+|  4 |         |         |                  |
 
 ###	Relevant documentation 
 
-*Geef een overzicht van de relvante bestaande docuementatie en hoe die wordt gebruikt in het rapport, maar dat lijkt dubbelop, want die komen ook in bijlage B*
+Relevant documentation is shown in appendix B
 
 
-<aside class='note'>
-    NB: gebruik de in config.js gedefinieerde localBiblio!
-</aside> 
-
-| Verwijzing | Kolom-2 | Kolom-3 | Kolom 4 | Kolom-n | 
-|------------|---------|---------|---------|---------| 
-| [[PUB-1]]  |         |         |         |         |
-| [[PUB-2]]  |         |         |         |         |
-| [[PUB-3]]  |         |         |         |         |
-| [[PUB-4]]  |         |         |         |         |
