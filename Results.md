@@ -4,8 +4,16 @@
 
 ### Resulting services
 
-*Beschrijf de resulterende OGC API Feature service (s)* https://api.pdok.nl/geonovum/oaf/v1_0/collections?f=html
+The resulting OGC API Feature service can be fount here:
 
+The root: 
+https://api.pdok.nl/geonovum/oaf/v1_0/
+
+The collections:
+https://api.pdok.nl/geonovum/oaf/v1_0/collections?f=html
+
+The items:
+https://api.pdok.nl/geonovum/oaf/v1_0/collections/items?f=html
 
 ### Resulting documentation
 
