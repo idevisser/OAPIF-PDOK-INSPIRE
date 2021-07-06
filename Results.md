@@ -1,4 +1,6 @@
-## Resulting findings
+## Results
+
+### Resulting findings
 
 The following findings were encountered during the High5 session: 
 1. GML as output is difficult and would not be realistic in the time available for this research. One could also discuss if it is realy useful, because it is not in line with the aim of OGI API Feautures: easy to use for developers.
@@ -31,7 +33,7 @@ https://api.pdok.nl/geonovum/oaf/v1_0/collections?f=html
 The items:
 https://api.pdok.nl/geonovum/oaf/v1_0/collections/addresses/items?f=html
 
-## Posible improvements
+### Posible improvements
 The following improvements could still be made after the high5 seesion:
 
 1. implementation of ETRS89 as CRS

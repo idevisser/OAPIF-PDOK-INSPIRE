@@ -1,6 +1,6 @@
 ## Approach
 
-### Approach
+### Approach step by step
 
 The approach consisted of the following steps:
 
@@ -14,7 +14,7 @@ The approach consisted of the following steps:
 ###	Stakeholders
 
 Stakeholders are:
-- Geonovum as initiator and author of this document
+- Geonovum as initiator and author of this document (https://www.geonovum.nl)
 - PDOK (Publieke Dienstverlening op de Kaart, http://www.pdok.nl) as hosting organization for geoservices
 - Kadaster (https://www.kadaster.nl) as dataprovider
 
