@@ -18,7 +18,7 @@ Stakeholders are:
 - PDOK (Publieke Dienstverlening op de Kaart, http://www.pdok.nl) as hosting organization for geoservices
 - Kadaster (https://www.kadaster.nl) as dataprovider
 
-## Used tools
+### Used tools
 
 PDOK has used self developped software based on Go and Postgres.
 
