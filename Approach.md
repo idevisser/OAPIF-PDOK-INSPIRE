@@ -33,7 +33,7 @@ Below the most relevant requirements are listed:
 |  3 | [INPSIRE-MIF document: Setting up an INSPIRE Download service based on the OGC API-Features standard](https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md) | 1 | [[PUB-2]] |
 |  4 | [predefined download](https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-pre-defined) | 1 | [[PUB-2]] #req-pre-defined |
 |  5 | [Geojson](https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-oapif-json) | 1 | [[PUB-2]] #req-oapif-json |
-|  6 | [bulk download](https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-bulk-download | 1 | [[PUB-2]] #req-bulk-download  |
+|  6 | [bulk download](https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-bulk-download) | 1 | [[PUB-2]] #req-bulk-download  |
 |  7 | [CRS ETRS89 and WGS84](https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-crs) | 2  | [[PUB-5]] and [[PUB-2]] #req-crs |
 |  8 | [INSPIRE validated GML as input](https://inspire.ec.europa.eu/validator/about/) | 3  | https://inspire.ec.europa.eu/validator/about/ |
 |  9 | [Dutch API designrules](https://www.geonovum.nl/over-geonovum/actueel/rest-api-design-rules-op-pas-toe-leg-uit-lijst) | 1 | [[PUB-3]] |
@@ -44,6 +44,6 @@ Below the most relevant requirements are listed:
 
 ###	Relevant documentation 
 
-Relevant documentation is shown in appendix A
+Relevant documentation is shown in [appendix B](#Referenties)
 
 

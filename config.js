@@ -139,9 +139,9 @@ var respecConfig =
     "PUB-3":
       {
         title:      "Dutch API design rules",
-        href:       "https://www.geonovum.nl",
+        href:       "https://www.geonovum.nl/over-geonovum/actueel/rest-api-design-rules-op-pas-toe-leg-uit-lijst",
         status:     "19 JULI 2020",
-        publisher:  "https://www.geonovum.nl/over-geonovum/actueel/rest-api-design-rules-op-pas-toe-leg-uit-lijst",
+        publisher:  "https://www.geonovum.nl",
         company:    "Geonovum",
     },
     "PUB-4":
