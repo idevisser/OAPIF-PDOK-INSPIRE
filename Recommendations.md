@@ -1,16 +1,31 @@
 ## Recommendations
 
-*Beschrijf hier de belangrijkste aanbevelingen:* 
+Recommendations can be devided in recommmendations for the hosting organization like [PDOK](https://www.pdok.nl), recommendations for the INSPIRE dataprovider and recommenadtions for the INSPIRE community.
 
-<aside class='note'>
-    Aanbevelingen in een mooi tabelletje misschien?
-</aside> 
+### Recommendations for a Hosting organization
 
-| Kolom-1 | Kolom-2 | Kolom-3 | Kolom 4 | Kolom-n | 
-|---------|---------|---------|---------|---------| 
-| Rij-1   |         |         |         |         |
-| Rij-2   |         |         |         |         |
-| Rij-3   |         |         |         |         |
-| Rij-4   |         |         |         |         |
-| Rij-5   |         |         |         |         |
-| Rij-6   |         |         |         |         |
+1. Figure out the best way of supporting more than one CRS, and at least [WGS84](https://epsg.io/4326) and [ETRS89](https://epsg.io/4258) since the last is the most common in INSPIRE
+2. Stimulate dataproviders who want OAPIF as a download service for their harmonized INSPIRE data to define the mapping of this data to an alternative encodings together with other datapoviders in Europe. In case of PDOK, this means geopackage for input, and json for output.
+3. Follow the developments of the alternative encodings
+4. Discuss recommandation 3 for the data provider with the data provider
+5. research how the metadata of the OAPIF service should look like. 
+
+### Recommendations for INSPIRE data providers
+
+1. Before you start, look what other member states have done in this field for the concerning INSPIRE themes.
+2. When hosting at PDOK you have to discuss the mapping of your harmonized data to other encodings together with other datapoviders in Europe and use the principles as stated in [[PUB-4]]
+3. When a working INSPIRE OAPIF is published with a well described mapping to json it should be shared at https://github.com/INSPIRE-MIF/2017.2/tree/master/resources/examples. 
+This could initiate a [Good Practice procedure](https://inspire.ec.europa.eu/portfolio/good-practice-library) as stated in [issues nr 9 of the INSPIRE helpdesk](https://github.com/INSPIRE-MIF/helpdesk/issues/9) 
+4. Adjust your metadata of the dataset with the extra OAPIF service. As long as there is no official protocol defined, use the type "Other". 
+
+### Recommendations for the INSPIRE community
+
+1. Stimulate a centralized astablishment for rules on mapping the INSPIRE data for each feature type that exists within the INSPIRE dataspecifications to other encodings like json, geopackage and in some cases theme specific encodings like SDMX for statistics. 
+[[PUB-4]] for json and for [geopackages](https://github.com/INSPIRE-MIF/gp-geopackage-encodings) are a very good start, but it needs to be specified per INSPIRE feature type per INSPIRE theme.
+If this is not organized, each EU member will try it on their own, with the result of no data interoperability. It is important for the OAPIF, because the input and output of many OAPIF implementations are based on these encodings, although [[PUB-1]] does not bound you to these alternative encodings. GML is also allowed. 
+2. Develop validation tool for these encodings, otherwise the encodings will stay additional in stead of alternative encodings for GML, since at the moment only validators for GML exist.
+3. specify a protocol for OAPIF like: OGC:OAPIF of OGC:OAF to be used in the metadata
+
+### Recommendations for all
+
+1. Look at the issues in the [INSPIRE helpdesk](https://github.com/INSPIRE-MIF/helpdesk) and specially [issues nr 9](https://github.com/INSPIRE-MIF/helpdesk/issues/9)
