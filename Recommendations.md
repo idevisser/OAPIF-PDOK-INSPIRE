@@ -25,7 +25,4 @@ This could initiate a [Good Practice procedure](https://inspire.ec.europa.eu/por
 If this is not organized, each EU member will try it on their own, with the result of no data interoperability. It is important for the OAPIF, because the input and output of many OAPIF implementations are based on these encodings, although [[PUB-1]] does not bound you to these alternative encodings. GML is also allowed. 
 2. Develop validation tool for these encodings, otherwise the encodings will stay additional in stead of alternative encodings for GML, since at the moment only validators for GML exist.
 3. specify a protocol for OAPIF like: OGC:OAPIF of OGC:OAF to be used in the metadata
-
-### Recommendations for all
-
-1. Look at the issues in the [INSPIRE helpdesk](https://github.com/INSPIRE-MIF/helpdesk) and specially [issues nr 9](https://github.com/INSPIRE-MIF/helpdesk/issues/9)
+4. Look at the issues in the [INSPIRE helpdesk](https://github.com/INSPIRE-MIF/helpdesk) and specially [issues nr 9](https://github.com/INSPIRE-MIF/helpdesk/issues/9)
