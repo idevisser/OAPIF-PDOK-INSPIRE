@@ -126,7 +126,7 @@ var respecConfig =
         href:       "https://docs.opengeospatial.org/is/17-069r3/17-069r3.html",
         status:     "V1.0",
         publisher:  "OGC",
-        company:    "Companynaam",
+        company:    "OGC",
     },
     "PUB-2":
       {
@@ -142,7 +142,7 @@ var respecConfig =
         href:       "https://www.geonovum.nl",
         status:     "19 JULI 2020",
         publisher:  "https://www.geonovum.nl/over-geonovum/actueel/rest-api-design-rules-op-pas-toe-leg-uit-lijst",
-        company:    "Companynaam",
+        company:    "Geonovum",
     },
     "PUB-4":
       {
@@ -154,19 +154,19 @@ var respecConfig =
     },
 	"PUB-5":
       {
-        title:      "OGC API Features Part1:Core",
-        href:       "https://docs.opengeospatial.org/is/17-069r3/17-069r3.html",
+        title:      "OGC API - Features - Part 2: Coordinate Reference Systems by Reference",
+        href:       "http://docs.opengeospatial.org/is/18-058/18-058.html",
         status:     "V1.0",
         publisher:  "OGC",
-        company:    "Companynaam",
+        company:    "OGC",
     },
 	"PUB-6":
       {
-        title:      "OGC API Features Part1:Core",
-        href:       "https://docs.opengeospatial.org/is/17-069r3/17-069r3.html",
-        status:     "V1.0",
+        title:      "OGC API - Features - Part 3: Filtering and the Common Query Language (CQL)",
+        href:       "https://docs.ogc.org/DRAFTS/19-079r1.html",
+        status:     "V1.0.0, draft",
         publisher:  "OGC",
-        company:    "Companynaam",
+        company:    "OGC",
     },
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
