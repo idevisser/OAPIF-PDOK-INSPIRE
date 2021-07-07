@@ -122,34 +122,50 @@ var respecConfig =
   {
     "PUB-1":
       {
-        title:      "Titel van Publicatie-1",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-1",
+        title:      "OGC API Features Part1:Core",
+        href:       "https://docs.opengeospatial.org/is/17-069r3/17-069r3.html",
+        status:     "V1.0",
+        publisher:  "OGC",
         company:    "Companynaam",
     },
     "PUB-2":
       {
-        title:      "Titel van Publicatie-2",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-2",
+        title:      "Setting up an INSPIRE Download service based on the OGC API-Features standard",
+        href:       "https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md",
+        status:     "V1.0",
+        publisher:  "INSPIRE-MIF",
         company:    "Companynaam",
     },
     "PUB-3":
       {
-        title:      "Titel van Publicatie-3",
+        title:      "Dutch API design rules",
         href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-3",
+        status:     "19 JULI 2020",
+        publisher:  "https://www.geonovum.nl/over-geonovum/actueel/rest-api-design-rules-op-pas-toe-leg-uit-lijst",
         company:    "Companynaam",
     },
     "PUB-4":
       {
-        title:      "Titel van Publicatie-4",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-4",
+        title:      "INSPIRE UML-to-GeoJSON encoding rule",
+        href:       "https://github.com/INSPIRE-MIF/2017.2/blob/master/GeoJSON/geojson-encoding-rule.md#inspire-requirements-for-encoding-rules",
+        status:     "V0.1",
+        publisher:  "Workinggroup on Inspire Action 2017.2",
+        company:    "Companynaam",
+    },
+	"PUB-5":
+      {
+        title:      "OGC API Features Part1:Core",
+        href:       "https://docs.opengeospatial.org/is/17-069r3/17-069r3.html",
+        status:     "V1.0",
+        publisher:  "OGC",
+        company:    "Companynaam",
+    },
+	"PUB-6":
+      {
+        title:      "OGC API Features Part1:Core",
+        href:       "https://docs.opengeospatial.org/is/17-069r3/17-069r3.html",
+        status:     "V1.0",
+        publisher:  "OGC",
         company:    "Companynaam",
     },
   },
