@@ -29,7 +29,7 @@ Below the most relevant requirements are listed:
 
 | nr | requirement | priority | reference | 
 |----|---------|---------|------------------| 
-|  1 | [OGC API Features Core](https://docs.opengeospatial.org/is/17-069r3/17-069r3.html)      |    1     | [[PUB-1]] [[PUB-1[href]]] |
+|  1 | [OGC API Features Core](https://docs.opengeospatial.org/is/17-069r3/17-069r3.html)      |    1     | [[PUB-1]] [[PUB-1.href]] |
 |  3 | INPSIRE-MIF document: Setting up an INSPIRE Download service based on the OGC API-Features standard      |   1      | [[PUB-2]:href] |
 |  4 | predefined download        |    1     | [[PUB-2:href]]#req-pre-defined |
 |  5 | Geojson        |    1     | https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-oapif-json                 |
