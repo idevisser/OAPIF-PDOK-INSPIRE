@@ -29,9 +29,9 @@ Below the most relevant requirements are listed:
 
 | nr | requirement | priority | reference | 
 |----|---------|---------|------------------| 
-|  1 | OGC API Features Core      |    1     | [[PUB-1]] |
-|  3 | INPSIRE-MIF document: Setting up an INSPIRE Download service based on the OGC API-Features standard      |   1      | [[PUB-2]] |
-|  4 | predefined download        |    1     | [[PUB-2]]#req-pre-defined |
+|  1 | OGC API Features Core      |    1     | [[PUB-1]] [[PUB-1:href]] |
+|  3 | INPSIRE-MIF document: Setting up an INSPIRE Download service based on the OGC API-Features standard      |   1      | [[PUB-2]:href] |
+|  4 | predefined download        |    1     | [[PUB-2:href]]#req-pre-defined |
 |  5 | Geojson        |    1     | https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-oapif-json                 |
 |  6 | bulk download        |    1     | https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-bulk-download                 |
 |  7 | CRS ETRS89 and WGS84       |    2     | [[PUB-5]]  https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-crs                 |
