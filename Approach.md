@@ -44,6 +44,6 @@ Below the most relevant requirements are listed:
 
 ###	Relevant documentation 
 
-Relevant documentation is shown in [appendix B](#Referenties)
+Relevant documentation is shown in [appendix B](#references)
 
 
