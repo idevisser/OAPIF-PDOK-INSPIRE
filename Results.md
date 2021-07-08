@@ -4,57 +4,57 @@
 
 The following findings were encountered during the High5 session and are listed per requirement
 
-**Rrequirement 1 and 2: OGC API Features Core and INSPIRE-MIF doument**
+#### Rrequirement 1 and 2: OGC API Features Core and INSPIRE-MIF doument
 
 These requierments are to general to mention findings.
 
-**Rrequirement 3:Multilinguality**
+#### Rrequirement 3:Multilinguality
 
 Multilinguality is not a relevant issue for the Dutch situation, but might be of more interest to other countries.
 
-**Rrequirement 4:predefined download**
+#### Rrequirement 4:predefined download
 
 Predefined download was not difficult to implement, because we easily refered to the existing Atomfeed download services via https://api.pdok.nl/geonovum/oaf/v1_0/collections?f=html with
 https://geodata.nationaalgeoregister.nl/inspireadressen/extract/inspireadressen.zip
 https://s3.delivery.pdok.nl/public/geonovum/addresses.gpkg
 
-**Rrequirement 5:Geojson** 
+#### Rrequirement 5:Geojson 
 
 1. Much time is needed for the mapping to json. This was one of the reasons for using addresses, because for this theme, this work was already done: https://github.com/INSPIRE-MIF/2017.2/blob/master/GeoJSON/ads
 2. We need a centralized astablishment of json schema's for all the INSPIRE feature types, otherwise member states will all do this in their own way and we will never reach the goal of INSPIRE to be able to do cross boarder mapping.
 3. We could consider leaving out the empty fields, or use an option not to show them
 
-**Rrequirement 6:bulk download** 
+#### Rrequirement 6:bulk download 
 
 The bulk download requirement, is considered the same as the one for predefined download.
 
-**Rrequirement 7:CRS ETRS89 and WGS84**
+#### Rrequirement 7:CRS ETRS89 and WGS84
 
 Only coordinate reference system  [WGS84](https://epsg.io/4326) was implemented, because there was no time for an other CRS. If time is evailable, [ETRS89](https://epsg.io/4258) should be considerated first, because this is the one used within INSPIRE.
 PDOK would do the transformation in advance and serve to datasets to improve the interoperatebility. The alternative, transforming on the fly, would probably not perform well.
 
-**Rrequirement 8:GML**
+#### Rrequirement 8:GML
 
 1. GML as output is difficult and would not be realistic in the time available for this research. It was therfor not implemeted. One could also discuss if it is realy useful, because it is not in line with the aim of OGI API Feautures: easy to use for developers.
 2. Complex GML as input needs a flattening of the data. This is needed for the software that publishes the features. It can only work with simple features, with one value per attribute and without relations to other objects. This often not the case with the more complex INSPIRE models.
 3. PDOK preferes flattened data as input in geopackages, so the dataprividers have to do this flattening by themself.
 4. In the case of the Dutch addresses the choice has finaly been made, not to use the harmonized GML as input, but the AS-Is-data, because in this harmonized GML file, the addresses don't contain the actual address, but links to sub elements via the componants tag. As a result of this choice the Inspire-ID is missing, because that was no part of the AS-Is data.
 
-**Rrequirement 9:Dutch API designrules**
+#### Rrequirement 9:Dutch API designrules
 
 [Dutch API designrules](https://www.geonovum.nl/over-geonovum/actueel/rest-api-design-rules-op-pas-toe-leg-uit-lijst) still have to be considered in relation to ths project.
 
-**Rrequirement 10:describing encoding**
+#### Rrequirement 10:describing encoding
 
 The describing of the encoding was not difficult to implement, because we easily refered to it via https://api.pdok.nl/geonovum/oaf/v1_0/collections?f=html with:
 https://github.com/INSPIRE-MIF/2017.2/blob/master/GeoJSON/ads/simple-addresses.md#model-mapping
 	
-**Rrequirement 11:filtering**
+#### Rrequirement 11:filtering
 
 For implementing filters, the bbox and items options were implemented. A next step would be filtering on values of the attributes. 
 For that it would be needed to get an overview of the attributes with https://api.pdok.nl/geonovum/oaf/v1_0/collections/addresses/queryables?f=html
 
-**Rrequirement 12:metadata links**
+#### Rrequirement 12:metadata links
 
 1. Metadata link of he dataset was not difficult to implement, because we easily refered to it via https://api.pdok.nl/geonovum/oaf/v1_0/collections?f=html with:
 https://www.nationaalgeoregister.nl/geonetwork/srv/dut/xml.metadata.get?uuid=a5f961e9-ebdd-41e2-b8e8-ab33ed340a83 . It still needs adjustment, for adding the OAPIF tot the download links. 
@@ -62,7 +62,7 @@ A new protocol needs to be developped for this.
 2. The metadata of the services were not implemented, but could be copied from the WFS metadata with some slight adjustments
 3. Metedata of the service could also be obtained from: https://api.pdok.nl/geonovum/oaf/v1_0/api?f=html
 
-**Other findings**
+#### Other findings
 
 1. The HIGH5 session has given a lot of insight for PDOK for future implementations of INSPIRE OAPIF for their dataproviders
 2. The dataprovider (Kadaster) was happy with the overview the collection request gave
