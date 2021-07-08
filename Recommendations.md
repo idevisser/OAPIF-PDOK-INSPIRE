@@ -8,7 +8,12 @@ Recommendations can be devided in recommmendations for the hosting organization 
 2. Stimulate dataproviders who want OAPIF as a download service for their harmonized INSPIRE data to define the mapping of this data to an alternative encodings together with other datapoviders in Europe. In case of PDOK, this means geopackage for input, and json for output.
 3. Follow the developments of the alternative encodings
 4. Discuss recommandation 3 for the data provider with the data provider
-5. research how the metadata of the OAPIF service should look like. 
+5. research how the metadata of the OAPIF service should look like
+6. Try to reach other data providers that are interested in OAPIF serfice
+7. Try to reach users for the OAPIF services
+8. Consider leaving out the empty fields, or use an option not to show them
+9. Give a result for https://api.pdok.nl/geonovum/oaf/v1_0/collections/addresses/queryables?f=html to show all attributes and make it possible to filter on their values
+10. Implement filters other than bbox and items
 
 ### Recommendations for INSPIRE data providers
 

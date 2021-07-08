@@ -8,7 +8,7 @@ The approach consisted of the following steps:
 - organize a High5 week with stakeholders
 - Choose a data set (Dutch INSPIRE adsresses)
 - start communication on Github 
-- report to INSPIR community
+- report to INSPIRE community
 - organize presentations
 
 ###	Stakeholders
