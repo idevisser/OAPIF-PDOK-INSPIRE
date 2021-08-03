@@ -20,7 +20,7 @@ Stakeholders are:
 
 ### Used tools
 
-PDOK has used self developed software based on Go and Postgres. (https://github.com/PDOK/goaf)
+PDOK has used self developed software based on Go and PostgreSQL/Postgis. (https://github.com/PDOK/goaf)
 
 ###	Requirements
 
