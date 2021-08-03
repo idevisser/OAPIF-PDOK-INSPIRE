@@ -21,7 +21,7 @@ Recommendations can be devided in recommmendations for the hosting organization 
 2. When hosting at PDOK you have to discuss the mapping of your harmonized data to other encodings together with other datapoviders in Europe and use the principles as stated in [[PUB-4]]
 3. When a working INSPIRE OAPIF is published with a well described mapping to json it should be shared at https://github.com/INSPIRE-MIF/2017.2/tree/master/resources/examples. 
 This could initiate a [Good Practice procedure](https://inspire.ec.europa.eu/portfolio/good-practice-library) as stated in [issues nr 9 of the INSPIRE helpdesk](https://github.com/INSPIRE-MIF/helpdesk/issues/9) 
-4. Adjust your metadata of the dataset with the extra OAPIF service. As long as there is no official protocol defined, use the type "Other". 
+4. Adjust your metadata of the dataset with the extra OAPIF service. As long as there is no official protocol defined in https://inspire.ec.europa.eu/metadata-codelist/ProtocolValue:1, use the type "Other". The extended codelist for the protocol in the Dutch metadatastandard 2.1.0 (https://docs.geostandaarden.nl/md/mdprofiel-iso19119/#codelist-protocol) contains: "OGC:API features"
 
 ### Recommendations for the INSPIRE community
 
