@@ -36,7 +36,7 @@ PDOK would do the transformation in advance and serve two datasets to improve th
 #### Requirement 8:GML
 
 1. GML as output is difficult and would not be realistic in the time available for this research. It was there for not implemented. One could also discuss if it is really useful, because it is not in line with the aim of OGI API Features: easy to use for developers.
-2. Complex GML as input needs a flattening of the data. This is needed for the software that publishes the features. It can only work with simple features, with one value per attribute and without relations to other objects. This often not the case with the more complex INSPIRE models.
+2. Complex GML as input needs a flattening of the data. This is needed for the software that publishes the features. It can only work with simple features, with one value per attribute and without relations to other objects. This is often not the case with the more complex INSPIRE models.
 3. PDOK prefers flattened data as input in geopackages, so the data prividers have to do this flattening by themself.
 4. In the case of the Dutch addresses the choice has finally been made, not to use the harmonized GML as input, but the AS-Is-data, because in this harmonized GML file, the addresses don't contain the actual address, but links to sub elements via the components tag. As a result of this choice, the Inspire-ID is missing because that was no part of the AS-Is data.
 
