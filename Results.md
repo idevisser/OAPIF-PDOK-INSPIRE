@@ -65,7 +65,7 @@ A new protocol needs to be developped for this.
 #### Other findings
 
 1. The HIGH5 session has given a lot of insight for PDOK for future implementations of INSPIRE OAPIF for their dataproviders
-2. More technical findings and issues can be found here(https://github.com/PDOK/goaf/issues).
+2. More technical findings and issues can be found [here](https://github.com/PDOK/goaf/issues).
 3. The dataprovider (Kadaster) was happy with the overview the collection request gave
 4. PDOK has mailny focussed on the OGC API Features Core part 1 [[PUB-1]]. A next step would be to focus on part 2 (CRS) [[PUB-5]] and 3 (filtering) [[PUB-6]]
 5. An other blocking issue before implementation of the OAPIF for INSPIRE at PDOK is that descriptions of encodings are not yet available
