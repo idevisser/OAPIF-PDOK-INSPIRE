@@ -4,9 +4,9 @@
 
 The approach consisted of the following steps:
 
-- astablish requirements
+- establish requirements
 - organize a High5 week with stakeholders in the week starting at June 21 2021
-- Choose a data set (Dutch INSPIRE adsresses)
+- Choose a data set (Dutch INSPIRE addresses)
 - start communication on Github 
 - report to INSPIRE community
 - organize presentations
@@ -16,11 +16,11 @@ The approach consisted of the following steps:
 Stakeholders are:
 - Geonovum as initiator and author of this document (https://www.geonovum.nl)
 - PDOK (Publieke Dienstverlening op de Kaart, http://www.pdok.nl) as hosting organization for geoservices
-- Kadaster (https://www.kadaster.nl) as dataprovider
+- Dutch Kadaster (https://www.kadaster.nl) as data provider
 
 ### Used tools
 
-PDOK has used self developped software based on Go and Postgres. (https://github.com/PDOK/goaf)
+PDOK has used self developed software based on Go and Postgres. (https://github.com/PDOK/goaf)
 
 ###	Requirements
 
@@ -37,7 +37,7 @@ Below the most relevant requirements are listed:
 |  6 | [bulk download](https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-bulk-download) | 1 | [[PUB-2]] #req-bulk-download  |
 |  7 | [CRS ETRS89 and WGS84](https://github.com/INSPIRE-MIF/gp-ogc-api-features/blob/master/spec/oapif-inspire-download.md#req-crs) | 2  | [[PUB-5]] and [[PUB-2]] #req-crs |
 |  8 | INSPIRE validated GML as [input](https://inspire.ec.europa.eu/validator/about/) and [output](http://docs.opengeospatial.org/is/17-069r3/17-069r3.html#_requirements_class_geography_markup_language_gml_simple_features_profile_level_0) | 3  | https://inspire.ec.europa.eu/validator/about/ and [[PUB-1]] #_requirements_classes_for_encodings |
-|  9 | [Dutch API designrules](https://www.geonovum.nl/over-geonovum/actueel/rest-api-design-rules-op-pas-toe-leg-uit-lijst) | 1 | [[PUB-3]] |
+|  9 | [Dutch API design rules](https://www.geonovum.nl/over-geonovum/actueel/rest-api-design-rules-op-pas-toe-leg-uit-lijst) | 1 | [[PUB-3]] |
 |  10 | [describing encoding](https://github.com/INSPIRE-MIF/2017.2/blob/master/GeoJSON/geojson-encoding-rule.md#inspire-requirements-for-encoding-rules) | 1 | [[PUB-4]] |
 |  11 | [filtering](https://docs.ogc.org/DRAFTS/19-079r1.html) | 2 | [[PUB-6]] |
 |  12 | [metadata links](http://docs.opengeospatial.org/is/17-069r3/17-069r3.html#rec_core_fc-md-descriptions) | 1 | [[PUB-1]] #rec_core_fc-md-descriptions |
@@ -45,6 +45,6 @@ Below the most relevant requirements are listed:
 
 ###	Relevant documentation 
 
-Relevant documentation is shown in [appendix B](#references)
+Relevant documentation is shown in [appendix A](#references)
 
 
