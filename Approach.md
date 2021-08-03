@@ -5,7 +5,7 @@
 The approach consisted of the following steps:
 
 - astablish requirements
-- organize a High5 week with stakeholders
+- organize a High5 week with stakeholders in the week starting at June 21 2021
 - Choose a data set (Dutch INSPIRE adsresses)
 - start communication on Github 
 - report to INSPIRE community
