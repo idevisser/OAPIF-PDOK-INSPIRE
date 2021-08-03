@@ -29,5 +29,5 @@ This could initiate a [Good Practice procedure](https://inspire.ec.europa.eu/por
 [[PUB-4]] for json and for [geopackages](https://github.com/INSPIRE-MIF/gp-geopackage-encodings) are a very good start, but it needs to be specified per INSPIRE feature type per INSPIRE theme.
 If this is not organized, each EU member will try it on their own, with the result of no data interoperability. It is important for the OAPIF, because the input and output of many OAPIF implementations are based on these encodings, although [[PUB-1]] does not bound you to these alternative encodings. GML is also allowed. 
 2. Develop validation tool for these encodings, otherwise the encodings will stay additional in stead of alternative encodings for GML, since at the moment only validators for GML exist.
-3. Specify a protocol for OAPIF like: OGC:OAPIF of OGC:OAF to be used in the metadata
+3. Specify a protocol for OAPIF like: "OGC:API features" as in the extended Dutch codelist (https://docs.geostandaarden.nl/md/mdprofiel-iso19119/#codelist-protocol)
 4. Look at the issues in the [European INSPIRE helpdesk](https://github.com/INSPIRE-MIF/helpdesk) and specially [issue nr 9](https://github.com/INSPIRE-MIF/helpdesk/issues/9)
